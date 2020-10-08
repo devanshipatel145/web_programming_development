@@ -14,7 +14,7 @@ else:
     from bottle import run, debug
 
 random.seed()
-
+#hello
 @get('/')
 def get_show_list():
     connection = sqlite3.connect("todo.db")
