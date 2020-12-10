@@ -5,7 +5,11 @@
 <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" >
 </head>
 <body>
+<<<<<<< HEAD
 <h3 class="w3-block w3-teal w3-center">Basic Todo List, version 1.1</h3>
+=======
+% include("header.tpl", session=session)
+>>>>>>> 0c48f9a4e426a53b24088c02e7cdba34f6e763a9
 <table class="w3-table w3-bordered w3-border">
 %for row in rows:
     <tr>
@@ -28,6 +32,10 @@
     </tr>
 %end
 </table>
+<<<<<<< HEAD
 <a href="/new_item"><button class="w3-button w3-block w3-teal">New item...</button></a>
+=======
+% include("footer.tpl", session=session)
+>>>>>>> 0c48f9a4e426a53b24088c02e7cdba34f6e763a9
 </body>
 </html>
